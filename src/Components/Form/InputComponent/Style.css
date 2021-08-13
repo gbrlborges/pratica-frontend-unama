@@ -1,0 +1,12 @@
+.TextLabel{
+    margin: 5px 5px;
+    display: flex;  
+}
+
+.InputBox{
+    Margin: 10px 5px;
+}
+
+label{
+    font-size: small;
+}

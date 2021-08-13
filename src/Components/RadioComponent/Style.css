@@ -1,0 +1,7 @@
+.RadioLabel{
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 5px;
+}
