@@ -1,0 +1,10 @@
+.select-telefone{
+    max-height: 20px;
+    max-width: 100px;
+    margin: 5px;
+}
+
+.select-input-container{
+    display: flex;
+    flex-direction: column;
+}

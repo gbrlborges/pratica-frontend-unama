@@ -6,12 +6,54 @@
     border: 2px solid rgb(255, 199, 135);
     padding: 30px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
-.InputBox{
-    Margin: 10px 5px;
+.form2 {
+    max-width: 550px;
+    margin: 120px auto;
+    border: 2px solid rgb(255, 199, 135);
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
 }
 
-.NascimentoInput{
-    display: inline-block;
+.Container{
+    display: Flex;
+}
+
+.nasc-input{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nasc-label{
+    margin: 8px;
+}
+
+.Radio-title{
+    padding: 5px;
+}
+
+.container-telefone{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+Button{
+    margin: 10px;
+}
+
+.tel-div{
+    display:flex;
+    flex-direction: column;
+}
+
+.input-error {
+    border: red;
 }

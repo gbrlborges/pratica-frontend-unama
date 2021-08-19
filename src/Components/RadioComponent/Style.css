@@ -1,7 +1,7 @@
+.RadioDiv{
+    margin-bottom: 8px;
+}
+
 .RadioLabel{
-    font-size: small;
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-    padding: 5px;
+    padding: 10px;
 }

@@ -1,13 +1,12 @@
-import { Fragment } from "react"
 import "./Style.css"
 
-export function RadioComponent({Gender}) {
+export function RadioComponent({Gender, ...others}) {
     return(
-        <Fragment>
+        <div className="RadioDiv">
             <label className="RadioLabel">
-                <input type="radio"/>
+                <input type="radio" {...others}/>
                 {Gender}
             </label>
-        </Fragment>
+        </div>
     )
 }
